@@ -10,7 +10,7 @@
     $results = $records->fetch(PDO::FETCH_ASSOC);
 
     $user = null;
-a
+
     if (count($results) > 0) {
       $user = $results;
     }
