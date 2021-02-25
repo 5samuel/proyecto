@@ -11,7 +11,7 @@
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $stmt->bindParam(':password', $password);
 
-   
+  };
 ?>
 <!DOCTYPE html>
 <html>
